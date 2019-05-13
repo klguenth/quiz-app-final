@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+  color: black;
+}
+
+label span {
+  margin-left: 16px;
+  margin-top: -8px;
+}
+
+.feedbackScreen {
+  display: none;
+  }
+
+.questionScreen {
+  display: none;
+}
+
+body {
+  background-image: url("https://images.unsplash.com/photo-1445112098124-3e76dd67983c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2694&q=80");
+  background-size: cover, no-repeat;
+  font-family: 'Jura', sans-serif;
+}
+
+.main {
+  display: block;
+  text-align: center;
+}
+
+header {
+  display: block;
+  text-align: center;
+}
+
+.waveLogo {
+  height: 20px;
+  width: 20px;
+  margin-top: 30px;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+button {
+  color: black;
+  background: transparent;
+  border: 2px solid black;
+  border-radius: 6px;
+  padding: 15px;
+  margin-top: 15px;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+fieldset {
+  border: 1px solid black;
+}
+
+label {
+  display: flex;
+  padding: auto;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  background: transparent;
+  border: 1px solid black;
+  border-radius: 6px;
+  color: black;
+  outline:none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+  line-height: 22px;
+}
+
+input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  border: 3px solid black;
+  transition: 0.2s all linear;
+  outline: none;
+  position: relative;
+  top: 15px;
+  bottom: 15px;
+}
+
+input:checked {
+  border: 6px solid black;
+}
+
+input:hover {
+  background-color: black;
+}
+
+input[type=radio] {
+  flex: 0 0 auto;
+  margin-right: 10px;
+}
+
+.answerOption {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.dolphinLogo {
+  height: 30px;
+  width: 30px;
+  margin-top: 15px;
+}
+
+.footer {
+  text-align: center;
+}
+
+@media screen and (min-width: 760px) {
+
+#questionForm {
+  width: 50%;
+  margin: auto;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+.footer {
+  display: block;
+}
+
+.waveLogo {
+  height: 40px;
+  width: 40px;
+  margin-top: 30px;
+}
+
+}
